@@ -1,0 +1,147 @@
+Protel Design System Design Rule Check
+PCB File : D:\1_AltiumProject\28_BEE_PC_EXP120\SpaceLiin-Satellite-4U-HW-1.2.0\01_DESIGN\BEE_1012 PAY-EXP V12.PcbDoc
+Date     : 6/24/2026
+Time     : 4:58:50 PM
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (WithinRoom('ROOM_eFUSE') or WithinRoom('ROOM_eFUSE_1') or WithinRoom('ROOM_eFUSE_2') or WithinRoom('ROOM_eFUSE_3') or WithinRoom('ROOM_eFUSE_4') or WithinRoom('ROOM_eFUSE_5') or WithinRoom('ROOM_eFUSE_6') or WithinRoom('ROOM_eFUSE_7') or WithinRoom('ROOM_eFUSE_8')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (InAnyDifferentialPair),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (WithinRoom('ROOM_PMIC')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (WithinRoom('ROOM_eMMC')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (IsKeepOut),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.6mm) (InNetClass('HD')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.1mm) ((WithinRoom('ROOM_SAMA7')Or WithinRoom('ROOM_RAM')) and (OnBottomLayer or OnTopLayer OR OnLayer('L4_PWR1')OR OnLayer('L5_PWR2'))),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.18mm) (Max=1mm) (Preferred=0.4mm) (InNetClass('POWER'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.1mm) (Max=2mm) (Preferred=0.125mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (not(InNet('GND') and IsVIA))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InNet('GND') and IsVia)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=5mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.25mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.12mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.125mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.254mm) (InNetClass('DDR-LANE0'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.254mm) (InNetClass('DDR-LANE1'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.1mm Target=_PA4-SOM_SDMMC0_OUT_D1_PP1) (InxSignalClass('xSignal_eMMC'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.1mm) (InxSignalClass('xSignal_MIPI'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.1mm) (InxSignalClass('xSignal_SOM_MRAM'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.102mm) (Disabled)(InDifferentialPairClass('DIFF100'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.2mm) (Disabled)(InDifferentialPairClass('All Differential Pairs'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.1mm) (InxSignalClass('xSignal_SDCARD'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Tolerance=0.254mm) (InNetClass('DDR-ADDR-CTL'))
+Rule Violations :0
+
+Processing Rule : Room ROOM_eFUSE_7 (Bounding Region = (182.574mm, 186.742mm, 187.774mm, 193.242mm) (False)
+Rule Violations :0
+
+Processing Rule : Room ROOM_eFUSE (Bounding Region = (173.074mm, 213.542mm, 178.274mm, 220.042mm) (False)
+Rule Violations :0
+
+Processing Rule : Room ROOM_eFUSE_4 (Bounding Region = (173.082mm, 195.526mm, 178.282mm, 202.026mm) (False)
+Rule Violations :0
+
+Processing Rule : Room ROOM_eFUSE_5 (Bounding Region = (182.674mm, 195.642mm, 187.874mm, 202.142mm) (False)
+Rule Violations :0
+
+Processing Rule : Room ROOM_eFUSE_6 (Bounding Region = (173.074mm, 186.542mm, 178.274mm, 193.042mm) (False)
+Rule Violations :0
+
+Processing Rule : Room ROOM_eMMC (Bounding Region = (237.401mm, 201.888mm, 255.301mm, 214.488mm) (False)
+Rule Violations :0
+
+Processing Rule : Room ROOM_RAM (Bounding Region = (214.405mm, 185.025mm, 235.405mm, 213.325mm) (InComponentClass('Components Class1'))
+Rule Violations :0
+
+Processing Rule : Room ROOM_PMIC (Bounding Region = (193.5mm, 190.25mm, 202.5mm, 200.5mm) (False)
+Rule Violations :0
+
+Processing Rule : Room ROOM_eFUSE_1 (Bounding Region = (182.674mm, 213.542mm, 187.874mm, 220.042mm) (False)
+Rule Violations :0
+
+Processing Rule : Room ROOM_eFUSE_3 (Bounding Region = (182.674mm, 204.542mm, 187.874mm, 211.042mm) (False)
+Rule Violations :0
+
+Processing Rule : Room ROOM_eFUSE_2 (Bounding Region = (173.074mm, 204.442mm, 178.274mm, 210.942mm) (False)
+Rule Violations :0
+
+Processing Rule : Room ROOM_SAMA7 (Bounding Region = (225.49mm, 175.568mm, 247.261mm, 196.75mm) (False)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Waived Violations : 0
+Time Elapsed        : 00:00:06
