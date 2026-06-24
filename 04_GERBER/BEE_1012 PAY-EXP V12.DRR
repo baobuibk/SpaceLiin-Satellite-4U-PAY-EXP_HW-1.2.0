@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: BEE_1012 PAY-EXP V12.PcbDoc   6/24/2026  5:03:54 PM
+NCDrill File Report For: BEE_1012 PAY-EXP V12.PcbDoc   6/25/2026  1:12:04 AM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : L1_TOP to L8_BOT
@@ -7,7 +7,7 @@ ASCII RoundHoles File : BEE_1012 PAY-EXP V12.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.2mm (8mil)                                              Round             2509      PTH        5058.31mm (199.15inch)
+T1      0.2mm (8mil)                                              Round             2510      PTH        5058.90mm (199.17inch)
 T2      0.3mm (12mil)                                             Round             564       PTH        753.42mm (29.66inch)
 T3      0.8mm (31mil)                                             Round             9         PTH        78.21mm (3.08inch)
 T4      1mm (39mil)                                               Round             28        PTH        81.28mm (3.20inch)
@@ -15,6 +15,6 @@ T5      1.1mm (43mil)                                             Round         
 T6      2.03mm (80mil)                                            Round             2         PTH        21.59mm (0.85inch)
 T7      3.2mm (126mil)                                            Round             7         PTH        533.45mm (21.00inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              3127
+Totals                                                                              3128
 
-Total Processing Time (hh:mm:ss) : 00:00:01
+Total Processing Time (hh:mm:ss) : 00:00:00
